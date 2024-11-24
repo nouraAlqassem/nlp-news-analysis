@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NLP Project</title>
+</head>
+<body>
+  <header>
+    <h1>NLP Project</h1>
+  </header>
+  <form id="url-form">
+      <input type="text" id="url-input" placeholder="Enter a URL" required />
+      <button type="submit">Analyze</button>
+  </form>
+  <div id="results" style="display: none;">
+    <h3>Form Results:</h3>
+    <p>Polarity: <span id="polarity"></span></p>
+    <p>Subjectivity: <span id="subjectivity"></span></p>
+    <p>Source: <span id="source"></span></p>
+    <p>Summary: <span id="summary"></span></p>
+    <p>Entities: <span id="entities"></span></p>
+    <p>Categories: <span id="categories"></span></p>
+    <p>Keywords: <span id="keywords"></span></p>
+  </div>
+  <footer>© 2024 NLP Project</footer>
+  <script type="module" src="../bundle.js"></script>
+</body>
+</html>
+
